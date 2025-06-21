@@ -32,5 +32,6 @@ Eğitmenlerin derslerde yoklama işlemlerini dijitalleştirmelerini sağlayan bi
 
 ## 🧑‍💻 Katkıda Bulunanlar
 
-- **Cihat Erensoy** - [LinkedIn](https://www.linkedin.com/in/cihat-erensoy-852935253/)
 - **Muhammet Cerrahoglu** - [LinkedIn](https://www.linkedin.com/in/muhammet-cerrahoglu/)
+- **Cihat Erensoy** - [LinkedIn](https://www.linkedin.com/in/cihat-erensoy-852935253/)
+
