@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.ogrenciYoklamadanSil">
+
+    <TextView
+        android:id="@+id/adText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/SoyadText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="@+id/adText1"
+        app:layout_constraintStart_toStartOf="@+id/adText1"
+        app:layout_constraintTop_toBottomOf="@+id/adText1" />
+
+    <TextView
+        android:id="@+id/noText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="@+id/SoyadText"
+        app:layout_constraintStart_toStartOf="@+id/SoyadText"
+        app:layout_constraintTop_toBottomOf="@+id/SoyadText" />
+
+    <Button
+        android:id="@+id/yoklamayiSil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kişiyi Yoklamadan Sil"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/MailText"
+        app:layout_constraintStart_toStartOf="@+id/MailText"
+        app:layout_constraintTop_toBottomOf="@+id/noText" />
+
+    <TextView
+        android:id="@+id/MailText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="@+id/noText"
+        app:layout_constraintStart_toStartOf="@+id/noText"
+        app:layout_constraintTop_toBottomOf="@+id/noText" />
+</androidx.constraintlayout.widget.ConstraintLayout>

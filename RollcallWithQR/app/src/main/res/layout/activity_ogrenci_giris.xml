@@ -1,0 +1,67 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".view.activity_ogrenci_giris">
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+    <EditText
+        android:id="@+id/ogrid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        android:hint="Öğrenci No"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="@+id/imageView2"
+        app:layout_constraintStart_toStartOf="@+id/imageView2"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <EditText
+        android:id="@+id/ogrpassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:hint="Şifre"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="@+id/ogrid"
+        app:layout_constraintStart_toStartOf="@+id/ogrid"
+        app:layout_constraintTop_toBottomOf="@+id/ogrid" />
+
+    <Button
+        android:id="@+id/ogrgirisbutton"
+        android:layout_width="200dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="30dp"
+        android:onClick="signInClicked"
+        android:text="Giriş Yap"
+        app:layout_constraintEnd_toEndOf="@+id/ogrpassword"
+        app:layout_constraintStart_toStartOf="@+id/ogrpassword"
+        app:layout_constraintTop_toBottomOf="@+id/ogrpassword" />
+
+    <Button
+        android:id="@+id/forgotPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Şifremi Unuttum"
+        app:layout_constraintEnd_toEndOf="@+id/ogrgirisbutton"
+        app:layout_constraintStart_toStartOf="@+id/ogrgirisbutton"
+        app:layout_constraintTop_toBottomOf="@+id/ogrgirisbutton" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

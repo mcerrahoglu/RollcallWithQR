@@ -1,0 +1,27 @@
+-- 1. Bölümler
+INSERT INTO bolum (bolum_no, bolum_ad) VALUES
+(1, 'Bilgisayar Mühendisliği'),
+(2, 'Elektrik Elektronik Mühendisliği');
+
+-- 2. Akademisyenler
+INSERT INTO akademisyen (ak_no, ak_tc, ak_ad, ak_soyad, ak_sifre) VALUES
+(1001, 1, 'Ahmet', 'Yılmaz', 'sifre123'),
+(1002, 2, 'Ayşe', 'Demir', 'abc456');
+
+-- 3. Öğrenciler
+INSERT INTO ogrenci (ogr_no, ogr_tc, ogr_ad, ogr_soyad, bolum_no, ogr_eposta, ogr_sifre) VALUES
+(2001, 3, 'Mehmet', 'Kaya', 1, 'mehmet.kaya@example.com', 'ogr123'),
+(2002, 4, 'Zeynep', 'Çelik', 1, 'zeynep.celik@example.com', 'zey456'),
+(2003, 5, 'Ali', 'Toprak', 2, 'ali.toprak@example.com', 'ali789');
+
+-- 4. Dersler
+INSERT INTO ders (ders_no, ders_ad, ak_no, bolum_no) VALUES
+(3001, 'Veritabanı Sistemleri', 1001, 1),
+(3002, 'Elektronik Devreler', 1002, 2);
+
+-- 5. Ders - Öğrenci ilişkisi
+INSERT INTO ders_ogrenci (ders_ogrenci_id, ogr_no, ders_no) VALUES
+(1, 2001, 3001),
+(2, 2002, 3001),
+(3, 2003, 3002);
+

@@ -1,0 +1,103 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Cihat\\Desktop\\qr-ile-yoklama\\API\\QrRollCallAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F5C136C7-0274-4FF5-9594-BF77612A6B5D}|QrRollCallAPI\\QrRollCallAPI.csproj|c:\\users\\cihat\\desktop\\qr-ile-yoklama\\api\\qrrollcallapi\\qrrollcallapi\\controllers\\akademisyencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5C136C7-0274-4FF5-9594-BF77612A6B5D}|QrRollCallAPI\\QrRollCallAPI.csproj|solutionrelative:qrrollcallapi\\controllers\\akademisyencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5C136C7-0274-4FF5-9594-BF77612A6B5D}|QrRollCallAPI\\QrRollCallAPI.csproj|c:\\users\\cihat\\desktop\\qr-ile-yoklama\\api\\qrrollcallapi\\qrrollcallapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F5C136C7-0274-4FF5-9594-BF77612A6B5D}|QrRollCallAPI\\QrRollCallAPI.csproj|solutionrelative:qrrollcallapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5C136C7-0274-4FF5-9594-BF77612A6B5D}|QrRollCallAPI\\QrRollCallAPI.csproj|c:\\users\\cihat\\desktop\\qr-ile-yoklama\\api\\qrrollcallapi\\qrrollcallapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5C136C7-0274-4FF5-9594-BF77612A6B5D}|QrRollCallAPI\\QrRollCallAPI.csproj|solutionrelative:qrrollcallapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5C136C7-0274-4FF5-9594-BF77612A6B5D}|QrRollCallAPI\\QrRollCallAPI.csproj|c:\\users\\cihat\\desktop\\qr-ile-yoklama\\api\\qrrollcallapi\\qrrollcallapi\\models\\akademisyen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5C136C7-0274-4FF5-9594-BF77612A6B5D}|QrRollCallAPI\\QrRollCallAPI.csproj|solutionrelative:qrrollcallapi\\models\\akademisyen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mhmmt\\Desktop\\API\\QrRollCallAPI\\QrRollCallAPI\\Models\\AkademisyenGiris.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Cihat\\Desktop\\qr-ile-yoklama\\API\\QrRollCallAPI\\QrRollCallAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "QrRollCallAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\Cihat\\Desktop\\qr-ile-yoklama\\API\\QrRollCallAPI\\QrRollCallAPI\\appsettings.json*",
+              "RelativeToolTip": "QrRollCallAPI\\appsettings.json*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAABiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-29T11:07:31.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Cihat\\Desktop\\qr-ile-yoklama\\API\\QrRollCallAPI\\QrRollCallAPI\\Program.cs",
+              "RelativeDocumentMoniker": "QrRollCallAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\Cihat\\Desktop\\qr-ile-yoklama\\API\\QrRollCallAPI\\QrRollCallAPI\\Program.cs",
+              "RelativeToolTip": "QrRollCallAPI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T11:07:29.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "akademisyen.cs",
+              "DocumentMoniker": "C:\\Users\\Cihat\\Desktop\\qr-ile-yoklama\\API\\QrRollCallAPI\\QrRollCallAPI\\Models\\akademisyen.cs",
+              "RelativeDocumentMoniker": "QrRollCallAPI\\Models\\akademisyen.cs",
+              "ToolTip": "C:\\Users\\Cihat\\Desktop\\qr-ile-yoklama\\API\\QrRollCallAPI\\QrRollCallAPI\\Models\\akademisyen.cs",
+              "RelativeToolTip": "QrRollCallAPI\\Models\\akademisyen.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T11:05:48.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AkademisyenGiris.cs",
+              "DocumentMoniker": "C:\\Users\\mhmmt\\Desktop\\API\\QrRollCallAPI\\QrRollCallAPI\\Models\\AkademisyenGiris.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\mhmmt\\Desktop\\API\\QrRollCallAPI\\QrRollCallAPI\\Models\\AkademisyenGiris.cs",
+              "ToolTip": "C:\\Users\\mhmmt\\Desktop\\API\\QrRollCallAPI\\QrRollCallAPI\\Models\\AkademisyenGiris.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\mhmmt\\Desktop\\API\\QrRollCallAPI\\QrRollCallAPI\\Models\\AkademisyenGiris.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T11:05:48.314Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AkademisyenController.cs",
+              "DocumentMoniker": "C:\\Users\\Cihat\\Desktop\\qr-ile-yoklama\\API\\QrRollCallAPI\\QrRollCallAPI\\Controllers\\AkademisyenController.cs",
+              "RelativeDocumentMoniker": "QrRollCallAPI\\Controllers\\AkademisyenController.cs",
+              "ToolTip": "C:\\Users\\Cihat\\Desktop\\qr-ile-yoklama\\API\\QrRollCallAPI\\QrRollCallAPI\\Controllers\\AkademisyenController.cs",
+              "RelativeToolTip": "QrRollCallAPI\\Controllers\\AkademisyenController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAhwBwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T11:05:48.317Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+﻿<Properties StartupConfiguration="{F5C136C7-0274-4FF5-9594-BF77612A6B5D}|Default">
+  <MonoDevelop.Ide.ItemProperties.QrRollCallAPI PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="QrRollCallAPI/Controllers/ders_yoklamaController.cs">
+    <Files>
+      <File FileName="QrRollCallAPI/Controllers/ders_yoklamaController2.cs" />
+      <File FileName="QrRollCallAPI/Controllers/ders_yoklamaController.cs" Line="75" Column="1" />
+      <File FileName="QrRollCallAPI/Models/ders_yoklama.cs" Line="1" Column="1" />
+      <File FileName="QrRollCallAPI/appsettings.json" />
+      <File FileName="QrRollCallAPI/appsettings.Development.json" />
+      <File FileName="QrRollCallAPI/Controllers/AkademisyenController.cs" />
+      <File FileName="QrRollCallAPI/Models/akademisyen.cs" />
+      <File FileName="QrRollCallAPI/Data/AppDbContext.cs" />
+      <File FileName="QrRollCallAPI/Program.cs" />
+      <File FileName="QrRollCallAPI/Models/ders.cs" />
+      <File FileName="QrRollCallAPI/Models/ders_ogrenci.cs" Line="1" Column="1" />
+      <File FileName="QrRollCallAPI/Models/ders_yoklama2.cs" />
+      <File FileName="QrRollCallAPI/Properties/launchSettings.json" />
+      <File FileName="QrRollCallAPI/Controllers/ogrenciController.cs" Line="1" Column="1" />
+      <File FileName="QrRollCallAPI/Models/User.cs" />
+      <File FileName="QrRollCallAPI/Models/QR.cs" />
+      <File FileName="QrRollCallAPI/Models/ogrenci.cs" />
+      <File FileName="QrRollCallAPI/Controllers/ogrenci_sifreController.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="QrRollCallAPI" expanded="True">
+            <Node name="QrRollCallAPI" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="ders_yoklamaController.cs" selected="True" />
+              </Node>
+              <Node name="Data" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="appsettings.json" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>

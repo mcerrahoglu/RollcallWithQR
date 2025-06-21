@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "918467305572",
+    "project_id": "rollcallwithqr",
+    "storage_bucket": "rollcallwithqr.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:918467305572:android:8ce12c1497404a2a3a3f71",
+        "android_client_info": {
+          "package_name": "com.qrrollcall.qrrollcall"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSVbjv6_ITVwOkqRQQPduDoXI2vACYgWs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

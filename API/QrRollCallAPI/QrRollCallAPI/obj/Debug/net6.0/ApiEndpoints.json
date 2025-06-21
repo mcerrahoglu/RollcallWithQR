@@ -1,0 +1,135 @@
+[
+  {
+    "ContainingType": "QrRollCallAPI.Controllers.AkademisyenController",
+    "Method": "Get",
+    "RelativePath": "api/Akademisyen",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "QrRollCallAPI.Controllers.dersController",
+    "Method": "Get",
+    "RelativePath": "api/ders",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "QrRollCallAPI.Controllers.ders_ogrenciController",
+    "Method": "Get",
+    "RelativePath": "api/ders_ogrenci",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "QrRollCallAPI.Controllers.ders_yoklamaController",
+    "Method": "Get",
+    "RelativePath": "api/ders_yoklama",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "QrRollCallAPI.Controllers.ders_yoklamaController",
+    "Method": "Post",
+    "RelativePath": "api/ders_yoklama",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "QrRollCallAPI.Models.ders_yoklama",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "QrRollCallAPI.Controllers.ders_yoklamaController",
+    "Method": "Delete",
+    "RelativePath": "api/ders_yoklama/{ders_no}/{ogr_no}/{hafta}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ders_no",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "ogr_no",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "hafta",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "QrRollCallAPI.Controllers.ders_yoklama2Controller",
+    "Method": "Get",
+    "RelativePath": "api/ders_yoklama2",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "QrRollCallAPI.Controllers.ogrenciController",
+    "Method": "Get",
+    "RelativePath": "api/ogrenci",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "QrRollCallAPI.Controllers.ogrenci_sifreController",
+    "Method": "Put",
+    "RelativePath": "api/ogrenci_sifre/{ogr_no}/sifre",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ogr_no",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updatedOgrenci",
+        "Type": "QrRollCallAPI.Models.ogrenci_sifre",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "QrRollCallAPI.Controllers.QRController",
+    "Method": "Get",
+    "RelativePath": "api/QR",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

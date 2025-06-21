@@ -1,0 +1,252 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "QrRollCallAPI",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/Akademisyen": {
+      "get": {
+        "tags": [
+          "Akademisyen"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/ders": {
+      "get": {
+        "tags": [
+          "ders"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/ders_ogrenci": {
+      "get": {
+        "tags": [
+          "ders_ogrenci"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/ders_yoklama": {
+      "get": {
+        "tags": [
+          "ders_yoklama"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "ders_yoklama"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ders_yoklama"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ders_yoklama"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ders_yoklama"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/ders_yoklama/{ders_no}/{ogr_no}/{hafta}": {
+      "delete": {
+        "tags": [
+          "ders_yoklama"
+        ],
+        "parameters": [
+          {
+            "name": "ders_no",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "ogr_no",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "hafta",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/ders_yoklama2": {
+      "get": {
+        "tags": [
+          "ders_yoklama2"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/ogrenci": {
+      "get": {
+        "tags": [
+          "ogrenci"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/ogrenci_sifre/{ogr_no}/sifre": {
+      "put": {
+        "tags": [
+          "ogrenci_sifre"
+        ],
+        "parameters": [
+          {
+            "name": "ogr_no",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ogrenci_sifre"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ogrenci_sifre"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ogrenci_sifre"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/QR": {
+      "get": {
+        "tags": [
+          "QR"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "ders_yoklama": {
+        "required": [
+          "ders_no",
+          "hafta",
+          "ogr_no"
+        ],
+        "type": "object",
+        "properties": {
+          "yok_id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "ders_no": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "ogr_no": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "hafta": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "ogrenci_sifre": {
+        "required": [
+          "ogr_sifre"
+        ],
+        "type": "object",
+        "properties": {
+          "ogr_no": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "ogr_sifre": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

@@ -1,0 +1,70 @@
+-- 1. bolum tablosu
+CREATE TABLE bolum (
+    bolum_no INTEGER PRIMARY KEY,
+    bolum_ad VARCHAR(50)
+);
+
+-- 2. akademisyen tablosu
+CREATE TABLE akademisyen (
+    ak_no BIGINT PRIMARY KEY,
+    ak_tc BIGINT,
+    ak_ad VARCHAR(20),
+    ak_soyad VARCHAR(20),
+    ak_sifre VARCHAR(25)
+);
+
+-- 3. ogrenci tablosu
+CREATE TABLE ogrenci (
+    ogr_no BIGINT PRIMARY KEY,
+    ogr_tc BIGINT,
+    ogr_ad VARCHAR(20),
+    ogr_soyad VARCHAR(20),
+    bolum_no INTEGER REFERENCES bolum(bolum_no),
+    ogr_eposta VARCHAR(40),
+    ogr_sifre VARCHAR(25)
+);
+
+-- 4. ders tablosu
+CREATE TABLE ders (
+    ders_no INTEGER PRIMARY KEY,
+    ders_ad VARCHAR(40),
+    ak_no BIGINT REFERENCES akademisyen(ak_no),
+    bolum_no INTEGER REFERENCES bolum(bolum_no)
+);
+
+-- 5. ders_ogrenci tablosu (çoktan çoğa ilişki)
+CREATE TABLE ders_ogrenci (
+    ders_ogrenci_id INTEGER PRIMARY KEY,
+    ogr_no BIGINT REFERENCES ogrenci(ogr_no),
+    ders_no INTEGER REFERENCES ders(ders_no)
+);
+
+-- 6. yoklama tablosu
+CREATE TABLE yoklama (
+    yok_no INTEGER PRIMARY KEY,
+    ders_no INTEGER REFERENCES ders(ders_no),
+    hafta INTEGER,
+    ak_no BIGINT REFERENCES akademisyen(ak_no),
+    bolum_no INTEGER REFERENCES bolum(bolum_no)
+);
+
+-- 7. ders_yoklama tablosu (yok_id ile primary key olacak şekilde)
+CREATE TABLE ders_yoklama (
+    yok_id SERIAL PRIMARY KEY,
+    ogr_no BIGINT NOT NULL REFERENCES ogrenci(ogr_no),
+    ders_no INTEGER NOT NULL REFERENCES ders(ders_no),
+    hafta INTEGER NOT NULL
+);
+
+-- 8. qr tablosu
+CREATE TABLE qr (
+    qr_no INTEGER PRIMARY KEY,
+    ak_konum_x INTEGER,
+    ak_konum_y INTEGER,
+    hafta INTEGER,
+    ders_no INTEGER REFERENCES ders(ders_no),
+    ak_no BIGINT REFERENCES akademisyen(ak_no),
+    bolum_no INTEGER REFERENCES bolum(bolum_no),
+    tarih DATE,
+    saat TIME WITHOUT TIME ZONE
+);

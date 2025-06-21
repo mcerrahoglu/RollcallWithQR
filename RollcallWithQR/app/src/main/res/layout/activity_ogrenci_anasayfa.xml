@@ -1,0 +1,104 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".view.activity_ogrenci_anasayfa">
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+    <Button
+        android:id="@+id/qr_oku"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="QR Oku"
+        app:layout_constraintEnd_toEndOf="@+id/imageView7"
+        app:layout_constraintStart_toStartOf="@+id/imageView7"
+        app:layout_constraintTop_toBottomOf="@+id/textViewOgrenci" />
+
+        <TextView
+            android:id="@+id/deneme123"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textViewOgrenci"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="@+id/imageView7"
+        app:layout_constraintStart_toStartOf="@+id/imageView7"
+        app:layout_constraintTop_toBottomOf="@+id/imageView7" />
+
+    <Button
+        android:id="@+id/devamsizlikGoruntu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Devamsızlık Goruntule"
+        app:layout_constraintEnd_toEndOf="@+id/qr_oku"
+        app:layout_constraintStart_toStartOf="@+id/qr_oku"
+        app:layout_constraintTop_toBottomOf="@+id/qr_oku" />
+
+    <Button
+        android:id="@+id/galeri_qr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:onClick="galeri_qr_basildi"
+        android:text="Galeriden QR"
+        app:layout_constraintEnd_toEndOf="@+id/devamsizlikGoruntu"
+        app:layout_constraintStart_toStartOf="@+id/devamsizlikGoruntu"
+        app:layout_constraintTop_toBottomOf="@+id/devamsizlikGoruntu" />
+
+    <Button
+        android:id="@+id/cikis_ogrenci"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Çıkış"
+        app:layout_constraintEnd_toEndOf="@+id/galeri_qr"
+        app:layout_constraintStart_toStartOf="@+id/galeri_qr"
+        app:layout_constraintTop_toBottomOf="@+id/galeri_qr" />
+
+    <Button
+        android:id="@+id/dersleri_gizle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:onClick="hideElementsOgrenci"
+        android:text="Dersleri Kapat"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ogr_ders_list"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ListView
+        android:id="@+id/ogr_ders_list"
+        android:layout_width="wrap_content"
+        android:layout_height="665dp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </ListView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
